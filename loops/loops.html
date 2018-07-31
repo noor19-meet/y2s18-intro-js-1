@@ -17,7 +17,18 @@ function getRandomInt(min, max) {
 var randomInt = getRandomInt(1, 100);
 /* END STARTING CODE */
 
-// your code goes under here
+	while (true){
+		var Answer = parseInt(prompt("What is the right number?"));
+			
+		if (Answer > randomInt){
+			alert("Your answer is to high")
+		} else if (Answer < randomInt) {
+			alert("Your answer is to low")
+
+		} else {
+			alert("congratulations! it took you to guss the right answer")
+		}
+	}
 
     </script>
 </body>
