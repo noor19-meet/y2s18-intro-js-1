@@ -18,11 +18,38 @@ function isLetter(char) {
 }
 
 		function isPalindrome(word) {
-			if isPalindrome = (char);
-				return (true)
-			else
-				return (false)
-		}
+			var list = "";
+			var List = 0
+			for (List =0; List < world.length;List++){
+				if (isLetter(world[List])){
+					list+=word[List].toLowerCase();
+
+				}
+			}
+			list = list.split("");
+			console.log(list);
+			var list1 = list;
+				list1 = list1.join("");
+			list.reverse();
+			list = list.join("");
+
+			console.log(list1);
+			console.log(list);
+			if (list == list1){
+				return (true);
+
+			
+}
+				return (false);
+var word = prompt("write the word");
+console.log(word);
+if (isPalindrome(word)){
+	document.write(word + "it is a Palindrome!")
+}		
+else{
+	document.write(word + "it is not a Palindrome");
+}		
+}		
     </script>
 </body>
 
